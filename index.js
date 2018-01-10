@@ -74,3 +74,4 @@ function placeOrder(cardNumber) {
     }
   }
 }
+placeOrder()
