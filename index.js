@@ -75,4 +75,4 @@ function placeOrder(cardNumber) {
     }
   }
 
-placeOrder()
+//placeOrder()
