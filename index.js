@@ -67,7 +67,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   if(cardNumber){
     console.log(`Your total cost is $${total()}, which will be charged to the ${cardNumber}.`);
-    for(var i = cart.length;i<=0;i--){
+    for(var i = cart.length;i>=0;i--){
       cart.pop();
     }
   }else{
